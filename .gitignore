@@ -1,0 +1,19 @@
+.hugo_build.lock
+hugo_stats.json
+package-json.lock
+public/
+node_modules/
+# Default ignored files
+/.idea/
+*.iml
+.DS_Store
+public
+*.lock
+node_modules
+/resources/_gen/
+/node_modules
+/resources
+/public
+.hugo_build.lock
+
+

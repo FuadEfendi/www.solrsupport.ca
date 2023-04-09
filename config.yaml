@@ -1,0 +1,7 @@
+baseurl: "https://example.com"
+copyright: "© Will Faught"
+enablerobotstxt: true
+
+module:
+  imports:
+  - path: "github.com/willfaught/paige"

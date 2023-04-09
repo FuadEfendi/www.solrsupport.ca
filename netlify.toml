@@ -8,7 +8,7 @@ HUGO_ENABLEGITINFO = "true"
 GO_VERSION = "1.19.1"
 
 [context.production]
-command = "chmod +x build.sh && ./build.sh"
+command = "./build.sh"
 
 [context.production.environment]
 HUGO_ENV = "production"

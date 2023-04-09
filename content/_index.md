@@ -15,12 +15,16 @@ title: "Solr Support"
 
 
 
-<p class="display-5 fw-bold h2 text-center">Apache Solr support</p>
-
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-            <p class="lead text-center">We support Apache Solr since January 2007.</p>
+            <p class="lead text-center">We provide independent Apache Solr consulting services and audit: architecture, prototyping, design, implementation, relevance tuning, performance tuning and monitoring, load stress testing, and capacity planning.</p>            
+            <p class="lead text-center">We have valuable experience in migrating commercial search products like FAST, Autonomy, Verity, Endeca to Apache Solr.</p>
+            <p class="lead text-center">We provide domain specific natural language processing (NLP) Lucene/SOLR solutions, analyzers, tokenizers, ranking algorythms, named entity recognitions and resolutions, 
+            tagging, and categorization.</p>
+            <p class="lead text-center">We provide complex, large scale enterprise Solr Search Architecture and integration, including Near Real Time (NRT) Sewarch, integrations with Kafka, ActiveMQ, Mulesoft, Solace, MongoDB, Cassandra, HBase, Hive, Nutch, Tika, Hadoop, Spark, SAP, Oracle, DB2, MySQL, PostgreSQL, Databricks Delta Lake, GraphQL, Spring Boot Microservices, Angular, Node.js, and more.</p>
+<p class="lead text-center">We design specialized domain-constrained web crawlers, robots, and clustered agents frameworks, we provide vertical and federated search solutions, external stream subscribers (Twitter, Amazon, Facebook, YouTube, RSS aggregators) and mining pipelines: social networks, shopping and review sites, economics, medicine.</p>
+<p class="lead text-center">We design and tune geo-spacial micro-search Lucene indices: mobile devices, GPS.</p>
         </div>
     </div>
 </div>

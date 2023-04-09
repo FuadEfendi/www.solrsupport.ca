@@ -2,15 +2,44 @@ baseurl: "https://solrsupport.ca"
 copyright: "© Fuad Efendi, Tokenizer Inc."
 enablerobotstxt: true
 languagecode: "en-us"
-languages:
-  en:
-    menu:
-      main:
-      - identifier: "home"
-        name: "Home"
-        url: "/"
-        weight: 10
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noclasses: false
+  tableofcontents:
+    endlevel: 6
+    ordered: true
+    startlevel: 2
+
 
 module:
   imports:
   - path: "github.com/willfaught/paige"
+
+  outputs:
+  home:
+  - "html"
+  - "json"
+  - "rss"
+paginate: 50
+params:
+  authors:
+    will-faught:
+      name: "Will Faught"
+  paige:
+    git:
+      commit_url: "https://github.com/willfaught/paige/commit/%s"
+taxonomies:
+  author: "authors"
+  category: "categories"
+  series: "series"
+  tag: "tags"
+timezone: "America/Los_Angeles"
+titlecasestyle: "Go"
+
+
+noreadingtime: false

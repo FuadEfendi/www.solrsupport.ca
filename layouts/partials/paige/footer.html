@@ -5,9 +5,7 @@
         {{ partial "paige/footer-first.html" . }}
     {{ end }}
 
-    {{ with site.Copyright | markdownify }}
-        <p class="mb-0 text-center text-secondary" id="paige-copyright">{{ . }}</p>
-    {{ end }}
+    <p class="mb-0 text-center text-secondary" id=paige-copyright>© <a href="https://fuadefendi.com/" target="_blank">Fuad Efendi</a>, <a href="https://www.tokenizer.ca/" target="_blank">Tokenizer Inc.</a></p>
 
     {{ if templates.Exists "partials/paige/footer-last.html" }}
         {{ partial "paige/footer-last.html" . }}

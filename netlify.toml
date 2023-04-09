@@ -8,7 +8,7 @@ HUGO_ENABLEGITINFO = "true"
 GO_VERSION = "1.19.1"
 
 [context.production]
-command = "snap install dart-sass-embedded && hugo --gc --minify"
+command = "./build.sh"
 
 [context.production.environment]
 HUGO_ENV = "production"

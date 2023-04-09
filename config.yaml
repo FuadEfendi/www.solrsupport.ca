@@ -1,6 +1,15 @@
 baseurl: "https://solrsupport.ca"
 copyright: "© Fuad Efendi, Tokenizer Inc."
 enablerobotstxt: true
+languagecode: "en-us"
+languages:
+  en:
+    menu:
+      main:
+      - identifier: "home"
+        name: "Home"
+        url: "/"
+        weight: 10
 
 module:
   imports:
